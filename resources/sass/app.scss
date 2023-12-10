@@ -1,0 +1,52 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+body{
+    background-color: #F0FFFF;
+}
+.navbar{
+    background-color: lightblue;
+    border-bottom: 1px solid #86b0e1;
+}
+.navbar-brand{
+    img{
+        max-width: 100px;
+    }
+}
+#welcome{
+    #banner{
+        text-align: center;
+    }
+    .btn-link{
+        color: #5d5d5d;
+        &:hover{
+            color: #383838;
+            text-decoration: none;
+        }
+    }
+}
+#app{
+    h1{
+        font-family: 'Nunito', sans-serif;
+        font-weight: 800;
+        font-size: 3em;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .banner{
+        padding-right: 25px;
+        padding-top: 150px;
+    }
+    .card{
+        max-height: 300px;
+        margin-bottom: 25px;
+        img{
+            max-height: 200px;
+        }
+    }
+}
